@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --require ./test/test-helper.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {
