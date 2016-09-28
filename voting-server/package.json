@@ -1,5 +1,5 @@
 {
-  "name": "React-Redux-FullStack-Project",
+  "name": "voting-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,9 @@
     ]
   },
   "scripts": {
+    "start": "babel-node index.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js",
     "test:watch": "npm run test -- --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LiuStudio/React-Redux-FullStack-Project.git"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +29,8 @@
     "mocha": "^3.1.0"
   },
   "dependencies": {
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "redux": "^3.6.0",
+    "socket.io": "^1.4.8"
   }
 }
