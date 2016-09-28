@@ -19,6 +19,11 @@
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-stage-0": "^6.5.0",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
     "chai": "^3.5.0",
@@ -32,6 +37,7 @@
   "dependencies": {
     "immutable": "^3.8.1",
     "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
     "react-dom": "^15.3.2"
   }
 }
